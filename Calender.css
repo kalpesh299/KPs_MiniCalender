@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+height:100vh;
+width:100vw;
+border: 2px solid khaki;
+background-color: #6a5acd;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: cursive;
+}
+
+.main{
+  
+    width:20vw;
+    height:45vh;
+    text-align: center;
+    border-radius: 10px;
+   background-color: white;
+   -webkit-box-shadow: 1px 1px 24px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 24px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 24px 0px rgba(0,0,0,0.75);
+}
+
+ #month{
+   border-radius: 10px 10px 0px 0px;
+padding:0.5em 0em 0.5em 0em;
+background-color: red;
+color:white;
+
+
+}
+#day{
+    padding:1em 0em 1em 0em;
+    color:#a9aab1;
+}
+
+#dat{
+    padding:0.4em 0em 0.8em 0em;
+    font-size: 3em;
+   
+}
+#year{
+    color:#a9aab1;
+}
